@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="@string/car_price"
-        android:id="@+id/textView2"
+        android:id="@+id/montlyPaymentTextView"
         android:textColor="@color/steel_blue"
         android:layout_above="@+id/downPaymentEditText"
         android:layout_alignParentLeft="true"
@@ -53,7 +53,7 @@
         android:text="@string/dollar_sign"
         android:id="@+id/textView3"
         android:textColor="@color/steel_blue"
-        android:layout_alignTop="@+id/textView2"
+        android:layout_alignTop="@+id/montlyPaymentTextView"
         android:layout_toRightOf="@+id/textView4"
         android:layout_toEndOf="@+id/textView4"
         android:layout_marginLeft="25dp"
@@ -78,8 +78,8 @@
         android:id="@+id/textView4"
         android:textColor="@color/steel_blue"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" />
+        android:layout_alignLeft="@+id/montlyPaymentTextView"
+        android:layout_alignStart="@+id/montlyPaymentTextView" />
 
     <TextView
         android:layout_width="wrap_content"
