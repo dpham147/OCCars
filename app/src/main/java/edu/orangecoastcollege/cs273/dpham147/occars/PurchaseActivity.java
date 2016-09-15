@@ -69,6 +69,16 @@ public class PurchaseActivity extends Activity {
     }
 
     private void constructLoanSummaryText(){
-        monthlyPaymentText = getString(R.string.report_line1) +
+        monthlyPaymentText = getString(R.string.report_line1) + currentCar.calculateMonthlyPayment();
+
+        loanSummaryText = getString(R.string.report_line2) + currentCar.getmPrice()
+                + getString(R.string.report_line3) + currentCar.getmDownPayment()
+                + getString(R.string.report_line5) + currentCar.calculateTaxAmount()
+                + getString(R.string.report_line6) + currentCar.calculateTotalCost()
+                + getString(R.string.report_line7) + currentCar.calculateBorrowedAmount()
+                + getString(R.string.report_line8) + currentCar.calculateInterestAmount()
+                + getString(R.string.report_line4) + currentCar.getmLoanTerm()
+                + getString(R.string.report_line9)
+                + getString(R.string.report_line10);
     }
 }

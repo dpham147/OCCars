@@ -15,24 +15,24 @@ public class Car {
         mPrice = 0.0;
     }
 
-    public void calculateBorrowedAmount(){
-
+    public double calculateBorrowedAmount(){
+        return 0.0;
     }
 
-    public void calculateInterestAmount(){
-
+    public double calculateInterestAmount(){
+        return 0.0;
     }
 
-    public void calculateMonthlyPament(){
-
+    public double calculateMonthlyPayment(){
+        return 0.0;
     }
 
-    public void calculateTaxAmount(){
-
+    public double calculateTaxAmount(){
+        return 0.0;
     }
 
-    public void calculateTotalCost(){
-
+    public double calculateTotalCost(){
+        return 0.0;
     }
 
     public double getmDownPayment() {
