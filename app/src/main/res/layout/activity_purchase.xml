@@ -151,5 +151,6 @@
         android:id="@+id/button"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="28dp" />
+        android:layout_marginBottom="28dp"
+        android:onClick="activateLoanReport" />
 </RelativeLayout>
