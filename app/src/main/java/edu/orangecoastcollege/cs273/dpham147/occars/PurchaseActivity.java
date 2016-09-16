@@ -51,6 +51,8 @@ public class PurchaseActivity extends Activity {
             loanTerm = 5;
         else if (fourYearsRadioButton.isChecked())
             loanTerm = 4;
+        else if (threeYearsRadioButton.isChecked())
+            loanTerm = 3;
         else
             loanTerm = 3;
 
