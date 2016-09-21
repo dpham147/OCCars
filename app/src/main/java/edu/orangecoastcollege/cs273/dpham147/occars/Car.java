@@ -1,13 +1,13 @@
 package edu.orangecoastcollege.cs273.dpham147.occars;
 
 /**
- * Created by Kyubey on 2016-09-15.
+ * Created by dpham147 on 2016-09-15.
  */
 public class Car {
     public double mDownPayment;
     public double mLoanTerm;
     public double mPrice;
-    public static double TAX_RATE = 10.0;
+    public static final double TAX_RATE = 10.0;
 
     public Car() {
         mDownPayment = 0.0;
@@ -53,23 +53,23 @@ public class Car {
         return mDownPayment;
     }
 
-    public void setmDownPayment(double mDownPayment) {
-        this.mDownPayment = mDownPayment;
+    public void setmDownPayment(double downPayment) {
+        mDownPayment = downPayment;
     }
 
     public double getmLoanTerm() {
         return mLoanTerm;
     }
 
-    public void setmLoanTerm(double mLoanTerm) {
-        this.mLoanTerm = mLoanTerm;
+    public void setmLoanTerm(double loanTerm) {
+        mLoanTerm = loanTerm;
     }
 
     public double getmPrice() {
         return mPrice;
     }
 
-    public void setmPrice(double mPrice) {
-        this.mPrice = mPrice;
+    public void setmPrice(double price) {
+        mPrice = price;
     }
 }
